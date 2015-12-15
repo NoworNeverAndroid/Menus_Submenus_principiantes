@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.nowor_000.menututorial.MainActivity">
+
+    <item android:id="@+id/Item1_añadir"
+        android:title="Opcion Añadir elemento"
+        android:orderInCategory="2"
+        android:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_input_add">
+
+    </item>
+
+    <item android:id="@+id/Item2_borrar"
+        android:title="Opcion Borrar elemento"
+        android:orderInCategory="1"
+        android:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_menu_delete">
+
+    </item>
+
+    <item android:id="@+id/Item_coleccion"
+        android:title="Opcion menu 3"
+        android:orderInCategory="3"
+        android:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_dialog_info">
+        <menu>
+            <item android:id="@+id/SubItem1"
+                android:title="SubOpcion 3.1" />
+            <item android:id="@+id/SubItem2"
+                android:title="SubOpcion 3.2" />
+        </menu>
+    </item>
+</menu>
